@@ -49,7 +49,7 @@ const Header = () => {
           <Link href="#projects" legacyBehavior>
             <a className="hover:text-accent">PROJECTS</a>
           </Link>
-          <Link href="#experience" legacyBehavior>
+          <Link href="#techstacks" legacyBehavior>
             <a className="hover:text-accent">EXPERIENCE</a>
           </Link>
           <Link href="#athena" legacyBehavior>
