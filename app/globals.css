@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "typeface-bebas-neue";
+@import "typeface-montserrat";
 
 :root {
   --background: #ffffff;
@@ -20,8 +22,74 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.custom-shape-divider-bottom-1729523128 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1729523128 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 155px;
+}
+
+.custom-shape-divider-bottom-1729523128 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1729583472 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1729583472 svg {
+  position: relative;
+  display: block;
+  width: calc(111% + 1.3px);
+  height: 113px;
+}
+
+.custom-shape-divider-bottom-1729583472 .shape-fill {
+  fill: #bca7ea;
+}
+
+.custom-shape-divider-bottom-1729764805 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1729764805 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 46px;
+}
+
+.custom-shape-divider-bottom-1729764805 .shape-fill {
+  fill: #bca7ea;
 }
