@@ -116,20 +116,20 @@ const WorkExperience = () => {
             <li>
               Quickly mastered new frameworks and project requirements, reducing
               issue resolution time and ensuring{" "}
-              <strong>reliable enhancement deployments</strong>
+              <strong>reliable enhancement deployments </strong>
               for mission-critical applications.
             </li>
             <li>
               Played a pivotal role in the successful delivery of a high-impact
               finance-related application, resolving production issues within
-              <strong>tight deadlines</strong> while enhancing system
+              <strong> tight deadlines </strong> while enhancing system
               reliability.
             </li>
           </ul>
           <p className="font-body font-bold mb-5">Technologies Used</p>
           <p className="font-body italic">
             HTML, CSS, JavaScript, TypeScript, ReactJS, AngularJS, PHP, C#.NET,
-            Laravel, T-SQL, MySQL
+            Laravel, T-SQL, MySQL, SAP
           </p>
         </div>
       </div>

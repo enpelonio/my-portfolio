@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe";
+import Contact from "@/components/Contact";
 import Education from "@/components/Education";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -28,6 +29,9 @@ const page = () => {
       </section>
       <section id="aboutme">
         <AboutMe />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
     </div>
   );
