@@ -68,7 +68,7 @@ const Header = () => {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } absolute top-[6rem] left-0 w-full bg-base z-40`}
+        } absolute top-[4rem] left-0 w-full bg-base z-40`}
       >
         <nav className="px-4 py-2 space-y-2">
           <Link href="#projects" legacyBehavior>
