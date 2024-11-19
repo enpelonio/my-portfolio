@@ -89,8 +89,6 @@ const Contact = () => {
             </form>
           </div>
         </div>
-
-        {status && <p className="mt-4 text-sm">{status}</p>}
       </div>
     </div>
   );

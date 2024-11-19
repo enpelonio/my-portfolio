@@ -23,7 +23,7 @@ export const POST = async (req) => {
       from: `"${name}" <${email}>`,
       to: process.env.RECIPIENT_EMAIL, // Your email address
       subject: "New Contact Form Submission",
-      text: message,
+      text: "Email address:\n" + email + "\n\nMessage: \n" + message,
     });
 
     return new Response(JSON.stringify({ success: "Message sent" }), {
