@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="overflow-visible">
-      <div className="m-0 p-0 min-[320px]:h-[84vh] sm:h-[88vh] md:h-[90vh] justify-center bg-base flex flex-col bg-hero-pattern md:bg-hero-right md:bg-105 bg-bottom">
+      <div className="m-0 p-0 min-h-screen justify-center bg-base flex flex-col bg-hero-pattern md:bg-hero-right md:bg-105 bg-bottom">
         <div className="w-full flex flex-col justify-center items-start p-10">
           <div className="flex justify-center md:justify-start items-center">
             {/* Adjust width to 100% on smaller devices */}
