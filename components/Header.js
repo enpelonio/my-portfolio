@@ -20,7 +20,7 @@ const Header = () => {
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="focus:outline-none ml-5"
+            className="focus:outline-none mr-5"
           >
             <svg
               className="w-6 h-6"
