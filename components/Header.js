@@ -10,7 +10,7 @@ const Header = () => {
     <header className="bg-base text-neutral sticky top-0 z-50">
       <div className="container mx-6 px-4 py-4 flex items-center justify-between md:justify-start">
         {/* Logo/Name */}
-        <div className="text-3xl font-heading w-[30%]">
+        <div className="text-3xl font-heading w-[20%]">
           <Link href="/" legacyBehavior>
             <a>ERVIN PELONIO</a>
           </Link>
