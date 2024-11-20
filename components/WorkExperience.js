@@ -38,7 +38,7 @@ const WorkExperience = () => {
             </div>
             <div>
               <img
-                src="/images/SAP-logo.png"
+                src="/images/SAP-Logo.png"
                 className="object-contain max-h-[50vh]"
               ></img>
             </div>
