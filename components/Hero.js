@@ -2,20 +2,18 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="overflow-visible">
-      <div className="m-0 p-0 min-h-screen justify-center bg-base flex flex-col bg-hero-pattern md:bg-hero-right md:bg-105 bg-bottom">
-        <div className="w-full flex flex-col justify-center items-start p-10">
-          <div className="flex justify-center md:justify-start items-center">
-            {/* Adjust width to 100% on smaller devices */}
-            <div className="w-full md:w-[70%] flex flex-col">
-              {/* Change font size based on screen size */}
-              <div className="w-full font-heading min-[320px]:text-[40px] text-[45px] lg:text-[100px] md:text-[70px]">
-                Hello, I'm Ervin. A full stack developer.
-              </div>
-              <div className="w-full font-body min-[320px]:text-[20px] sm:text-[25px] lg:text-[30px]">
-                With a passion for doing good in the world one line of code at a
-                time.
-              </div>
+    <div className="m-0 p-0 min-h-screen justify-center bg-base flex flex-col bg-hero-pattern md:bg-hero-right md:bg-105 bg-bottom">
+      <div className="w-full flex flex-col justify-center items-start p-10">
+        <div className="flex justify-center md:justify-start items-center">
+          {/* Adjust width to 100% on smaller devices */}
+          <div className="w-full md:w-[70%] flex flex-col">
+            {/* Change font size based on screen size */}
+            <div className="w-full font-heading min-[320px]:text-[40px] text-[45px] lg:text-[100px] md:text-[70px]">
+              Hello, I'm Ervin. A full stack developer.
+            </div>
+            <div className="w-full font-body min-[320px]:text-[20px] sm:text-[25px] lg:text-[30px]">
+              With a passion for doing good in the world one line of code at a
+              time.
             </div>
           </div>
         </div>
