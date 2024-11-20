@@ -10,32 +10,30 @@ import React from "react";
 
 const page = () => {
   return (
-    <>
+    <div>
       <Header />
-      <div>
-        <section id="home">
-          <Hero />
-        </section>
-        <section id="projects">
-          <Projects />
-        </section>
-        <section id="techstacks">
-          <TechStacks />
-        </section>
-        <section id="experience">
-          <WorkExperience />
-        </section>
-        <section id="education">
-          <Education />
-        </section>
-        <section id="aboutme">
-          <AboutMe />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </div>
-    </>
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="techstacks">
+        <TechStacks />
+      </section>
+      <section id="experience">
+        <WorkExperience />
+      </section>
+      <section id="education">
+        <Education />
+      </section>
+      <section id="aboutme">
+        <AboutMe />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+    </div>
   );
 };
 
