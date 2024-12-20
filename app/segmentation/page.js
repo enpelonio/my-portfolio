@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 const page = () => {
   return (
-    <div className="bg-light min-h-screen">
+    <div className="bg-white min-h-screen">
       <ProjectHeader />
       <div className="pt-10 px-10 flex flex-col w-full">
         <h2 className="font-heading text-3xl mb-4 text-center">

@@ -11,7 +11,7 @@ const Card = ({ className, onClick, imgSrc, title, description }) => {
           <img
             src={imgSrc}
             alt="Card Image"
-            className="object-contain w-full h-full"
+            className="object-contain max-w-[300px] max-h-[300px]"
           />
         </div>
 

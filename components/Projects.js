@@ -46,6 +46,28 @@ const Projects = () => {
             router.push("/kaiwa");
           }}
         />
+        <Card
+          className="bg-base-light"
+          imgSrc={"/images/hatudexpress_logo.png"}
+          title={"Barili Hatud Express"}
+          description={
+            "A messenger-based online ordering, delivery, and ride request system I started for my hometown to aid motorcycle drivers in their livelihood and provide convenience to residents."
+          }
+          onClick={() => {
+            router.push("/barilihatudexpress");
+          }}
+        />
+        <Card
+          className="bg-secondary-light"
+          imgSrc={"/images/juanderbot_logo.png"}
+          title={"Juander Bot"}
+          description={
+            "An AI chatbot based on Retrieval Augmented Technology that can answer questions related on the processes of different government offices in the Philippines in any language."
+          }
+          onClick={() => {
+            router.push("/juanderbot");
+          }}
+        />
       </div>
     </div>
   );
