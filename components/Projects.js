@@ -9,7 +9,7 @@ const Projects = () => {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col p-10 min-h-[100vh] relative bg-light">
+    <div className="flex flex-col p-10 min-h-[100vh] relative bg-white">
       <p className="font-heading text-3xl mb-10">Personal Projects</p>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card
@@ -25,7 +25,7 @@ const Projects = () => {
         />
 
         <Card
-          className="bg-base"
+          className="bg-base-light"
           title={"Novel 3D Plant Point Cloud Segmentation Technique"}
           onClick={() => {
             router.push("/segmentation");

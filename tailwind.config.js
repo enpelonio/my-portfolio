@@ -10,11 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        base: "#CDFCCC",
-        secondary: "#BCA7EA",
-        "secondary-light": "#EFE8FF",
-        "secondary-dark": "#6E5CA4",
-        light: "#FEFDFE",
+        "base-dark": "#3dac78",
+        base: "#74c69d",
+        "base-light": "#95d5b2",
+        secondary: "#b7e4c7",
+        "secondary-light": "#d8f3dc",
       },
       fontFamily: {
         heading: ["Bebas Neue", "cursive"],
